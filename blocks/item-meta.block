@@ -1,0 +1,3 @@
+<div class="item-meta">
+    <p>Added on {addedOn|date %B %d, %Y} by {author.displayName}</p>
+</div>
