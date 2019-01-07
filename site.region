@@ -16,7 +16,7 @@
     <header class="header">
         <h1 class="site-title">
             <a href="/">
-                Developer Platform Beginner Tutorial - by Gregg Christofferson
+                {website.siteTitle}
             </a>
         </h1>
     </header>
