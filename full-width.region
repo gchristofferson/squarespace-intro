@@ -1,0 +1,20 @@
+<body>
+<p>Hello Full-Width Layout!</p>
+
+<div class="container">
+
+    <header class="header">
+        <h1 class="site-title">
+            <a href="/">
+                {website.siteTitle}
+            </a>
+        </h1>
+    </header>
+    <squarespace:navigation navigationId="mainNav" template="navigation" />
+    <main class="content">
+        <section id="page" role="main" data-content-field="main-content">
+            {squarespace.main-content}
+        </section>
+    </main>
+
+</div>
