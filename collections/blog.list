@@ -19,10 +19,12 @@
     {.if excerpt}
     {excerpt}
     <a class="link" href="{fullUrl}">Read More</a>
+    {@|apply item-meta.block}
     {.or}
 
     <!--MAIN CONTENT-->
     {body}
+    {@|apply item-meta.block}
 
     {.end}
 

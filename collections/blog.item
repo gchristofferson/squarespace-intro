@@ -15,7 +15,7 @@
     </h1>
 
     <!--MAIN CONTENT-->
-
+    {@|apply item-meta.block}
     {body}
 
 </article>
